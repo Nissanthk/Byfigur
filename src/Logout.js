@@ -55,42 +55,6 @@ function Logout(){
         window.location="./logout";
     }
 
-    // const [keyID, setKeyID] = useState(); 
-
-    // useEffect(() => {
-    //     onValue(ref(db, "ID"), snapshot => {
-    //         const data1 = snapshot.val(); 
-    //         let tempID = []; 
-    //         let tempName1 = []; 
-
-    //         if (data1 !== null){
-    //             for (let [key3, value3] of Object.entries(data1)){
-    //               tempID.push(key);
-    //               tempName1.push(value);
-    //             }
-    //         }
-            
-    //         var listt1 = []; 
-
-    //         for (let i = 0; tempID.length; i++){
-    //             listt1.push({ID : tempID[i], name : tempName1[i]}); 
-    //         }
-
-    //         setKeyID(listt1); 
-    //     })
-    // }, [])
-
-    // // const unRegister = () => {
-    // //     for (let i = 0; i < keyID.length; i++){
-    // //         if (keyID.name == newStr){
-    // //             remove(ref(db, "ID" + keyID.ID))
-    // //         }
-    // //     }
-    // // }
-
-    // let aaa =225216938; 
-    // let aa = "Available"; 
-
     return (
     <div className="pageColor">
 
